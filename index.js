@@ -72,8 +72,7 @@ app.delete('/api/product/:id', async (req, res) => {
 
 
 //Data base MongoDB
-mongoose
-  .connect(
+mongoose.connect(
     'mongodb+srv://dalip01:nwosNBu777jCBpsX@backenddb.1ep2mug.mongodb.net/Node-API?retryWrites=true&w=majority'
   )
   .then(() => {
